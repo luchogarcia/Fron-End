@@ -32,6 +32,3 @@ function sendResetEmail() {
     document.getElementById("success-message").innerHTML = "Temporalmente entregamos el valor quemado, su clave es: 1234";
   }
 }
-
-
-alert('El producto ha sido agregado al carrito.');
