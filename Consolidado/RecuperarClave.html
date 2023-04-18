@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="forgot-password">
+      <h1>Recuperar Contraseña</h1>
+      <form>
+        <input type="email" placeholder="Nombre de usuario" id="email">
+        <button type="button" onclick="sendResetEmail()">Solicitar</button>
+        <button type="button" onclick="regresar()">Regresar</button>
+      </form>
+      <div id="error-message"></div>
+      <div id="success-message"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
